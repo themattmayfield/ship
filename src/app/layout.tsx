@@ -1,3 +1,4 @@
+import { TooltipProvider } from '@/components/ui/tooltip';
 import '@/styles/globals.css';
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
@@ -24,7 +25,9 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
 
   return (
     <html lang="en" className="dark">
-      <body>{children}</body>
+      <body>
+        <TooltipProvider>{children}</TooltipProvider>
+      </body>
     </html>
   );
 };
