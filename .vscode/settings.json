@@ -1,0 +1,54 @@
+{
+    "editor.codeActionsOnSave": {
+      "quickfix.biome": "explicit",
+      "source.organizeImports.biome": "explicit"
+    },
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+      "prettier.singleQuote": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "search.exclude": {
+      "CHANGELOG.md": true,
+      "**/README.md": true,
+      "**/node_modules": true,
+      "**/.next": true,
+      "**/.turbo/**": true,
+      "**/build": true,
+      "**/tmp": true,
+      "**/lib": true,
+      "**/.git": true,
+      "**/tsconfig.tsbuildinfo": true,
+      "lib/**/*": true,
+      "**/*.snap": true,
+      "node_modules": true,
+      "coverage": true,
+      "yarn.lock": true,
+      "*.log": true
+    }
+  }
